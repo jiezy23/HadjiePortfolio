@@ -1,38 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hadjie's Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hadjie Aguinza Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .profile-pic {
+      display: block;
+      margin: 20px auto;
+      width: 200px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .section {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>👋 Hi, I'm Hadjie Aguinza</h1>
-    <p>Fresh IT Graduate | Web Developer | Tech Enthusiast</p>
-  </header>
 
-  <section class="projects">
-    <h2>💼 Projects</h2>
+  <h1>👋 Hi, I'm Hadjie Aguinza</h1>
+  <img src="photo.jpg" alt="My Graduation Photo" class="profile-pic">
+
+  <div class="section">
+    <h2>📌 About Me</h2>
+    <p>I am a fresh BSIT graduate from the Philippines who is passionate about building websites, learning new tech skills, and starting my career in the digital world.</p>
+  </div>
+
+  <div class="section">
+    <h2>💻 Skills</h2>
     <ul>
-      <li><strong>E-Loading System:</strong> PHP-based system for digital loading business. <a href="#">View on GitHub</a></li>
-      <li><strong>Portfolio Website:</strong> This live website. <a href="#">View Code</a></li>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python, Java</li>
+      <li>Git & GitHub</li>
     </ul>
-  </section>
+  </div>
 
-  <section class="skills">
-    <h2>🛠 Skills</h2>
-    <p>HTML, CSS, JavaScript, PHP, MySQL, Python, Git</p>
-  </section>
+  <div class="section">
+    <h2>📁 Projects</h2>
+    <ul>
+      <li><a href="https://github.com/hadjie123/simple-website" target="_blank">Simple Website</a></li>
+      <li><a href="https://github.com/hadjie123/calculator" target="_blank">Calculator App</a></li>
+    </ul>
+  </div>
 
-  <section class="contact">
+  <div class="section">
     <h2>📫 Contact Me</h2>
-    <p>Email: hadjie@example.com</p>
-    <p>GitHub: <a href="https://github.com/hadjie123">github.com/hadjie123</a></p>
-  </section>
+    <p>Email: your.email@example.com</p>
+    <p>Facebook: <a href="https://facebook.com/yourprofile" target="_blank">facebook.com/yourprofile</a></p>
+  </div>
 
-  <footer>
-    <p>© 2025 Hadjie Aguinza</p>
-  </footer>
 </body>
 </html>
