@@ -1,4 +1,6 @@
 # 👋 Hi, I'm Hadjie Aguinza
+![My Graduation Photo](https://github.com/hadjie123/hadjie123/blob/main/photo.jpg?raw=true)
+
 A fresh IT graduate passionate about web development, tech, and continuous learning.
 
 ## 💼 Projects
